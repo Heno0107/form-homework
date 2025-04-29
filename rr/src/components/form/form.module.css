@@ -1,0 +1,45 @@
+.form {
+    background-color: white;
+    max-width: 840px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 12px 0;
+}
+
+.inputs {
+    padding: 12px 10px;
+}
+
+.user {
+    width: 40%;
+    padding: 4px 8px;
+}
+
+.pass {
+    width: 80%;
+    padding: 4px 8px;
+}
+
+input {
+    margin: 12px 10px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background-color: green;
+    transition: 0.4s;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 8px 32px;
+    border-radius: 10px;
+    &:hover {
+        background-color: greenyellow;
+    }
+}
